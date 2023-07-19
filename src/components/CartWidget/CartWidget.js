@@ -5,13 +5,14 @@ import Container from 'react-bootstrap/Container';
 
 const CartWidget = () => {
   return (
-        <div>
-          <Container>
-            <h2><BsCartFill /></h2>
-            <h3>0</h3>
-          </Container>
-        </div>
+    <div>
+    <button type="button" className="btn colorCartButton position-relative">
+    <BsCartFill/>
+    <span className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">0</span>
+    </button>
+  </div>
         )
 }
 
 export default CartWidget;
+
