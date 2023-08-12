@@ -27,11 +27,7 @@ const NavBar = () => {
                                         <li className="nav-item">
                                         <NavLink className="nav-link" to={"/category/pijamas"}>Pijamas</NavLink>
                                         </li>
-                                        <li className="nav-item">
-                                        <NavLink className="nav-link" to={"/category/sexy"}>Sexy</NavLink>
-                                        </li>
-                                        
-                                    </ul>
+                                       </ul>
                                     </div>
                                 </div>
                             </nav>
